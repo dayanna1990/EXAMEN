@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  text-align: center;
+  margin-top: 180px;
+}
+
+button {
+  padding: 20px 40px;
+  margin: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+
+#ejercicio1-btn {
+  background-color: #EA0ED2;
+}
+
+#ejercicio2-btn {
+  background-color: #76C426;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.form-box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=submit] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #265FC4;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+}
+
